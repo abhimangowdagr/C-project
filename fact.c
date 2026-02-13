@@ -17,10 +17,3 @@ void factorial()
         printf("Factorial of %d = %llu", n, fact);
     }
 }
-
-int main()
-{
-    factorial();   // calling the function
-    return 0;
-}
-

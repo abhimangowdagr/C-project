@@ -29,10 +29,3 @@ void reverse()
 
     printf("\nString After Reverse: %s", rev);
 }
-
-int main()
-{
-    reverse();
-    return 0;
-}
-

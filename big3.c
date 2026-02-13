@@ -24,10 +24,3 @@ void biggest()
         printf("Some or all numbers are Equal\n");
     }
 }
-
-int main()
-{
-    biggest();
-    return 0;
-}
-
