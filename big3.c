@@ -1,19 +1,22 @@
 #include <stdio.h>
-
-void biggest() {
-    int a, b, c;
-
-    printf("Enter three numbers: ");
-    scanf("%d %d %d", &a, &b, &c);
-
-    if (a >= b && a >= c) {
-        printf("Biggest number is: %d\n", a);
-    } else if (b >= a && b >= c) {
-        printf("Biggest number is: %d\n", b);
-    } else {
-        printf("Biggest number is: %d\n", c);
+biggest()
+{
+    int num1, num2;
+    // Ask user to enter the two numbers
+    printf("Please Enter Two different values\n");
+    // Read two numbers from the user
+    scanf("%d %d", &num1, &num2);
+    if(num1 > num2)
+    {
+        printf("%d is Largest\n", num1);
     }
-
+    else if (num2 > num1)
+    {
+        printf("%d is Largest\n", num2);
+    }
+    else
+    {
+        printf("Both are Equal\n");
+    }
    // return 0;
 }
-
